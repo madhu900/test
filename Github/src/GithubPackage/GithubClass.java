@@ -2,6 +2,8 @@ package GithubPackage;
 
 public class GithubClass {
 	
+	private int id;
+	
 	private String name;
 	private String address;
 	public String getName() {
@@ -16,5 +18,11 @@ public class GithubClass {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+public void setId(int id) {
+	this.id = id;
+}
 
+public int getId() {
+	return id;
+}
 }
